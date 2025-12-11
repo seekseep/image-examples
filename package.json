@@ -1,0 +1,29 @@
+{
+  "name": "image-examples",
+  "version": "1.0.0",
+  "description": "ラスター画像とベクター画像のフォーマット比較デモ",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/generate-images.js",
+    "serve": "npx http-server public -p 8080 -o"
+  },
+  "keywords": [
+    "image",
+    "raster",
+    "vector",
+    "png",
+    "jpeg",
+    "webp",
+    "gif",
+    "svg"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
