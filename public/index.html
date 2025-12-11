@@ -127,12 +127,24 @@
 
         .scale-item {
             text-align: center;
+            overflow: hidden;
         }
 
         .scale-item h4 {
             margin-bottom: 10px;
             color: #34495e;
             font-size: 14px;
+        }
+
+        .scale-item .image-container {
+            overflow: auto;
+            min-height: 150px;
+        }
+
+        .scale-item .image-container img {
+            max-width: none;
+            width: 100%;
+            height: auto;
         }
 
         .characteristics {
@@ -361,21 +373,21 @@
             <h3 style="margin-top: 30px; margin-bottom: 15px;">ラスター画像（PNG）- 拡大すると劣化</h3>
             <div class="scale-comparison">
                 <div class="scale-item">
-                    <h4>100% (原寸)</h4>
+                    <h4>100% (原寸 400px)</h4>
                     <div class="image-container">
-                        <img src="assets/img/sample.png" style="width: 100px;" alt="PNG 100%">
+                        <img src="assets/img/sample.png" alt="PNG 100%">
                     </div>
                 </div>
                 <div class="scale-item">
-                    <h4>200% (2倍)</h4>
+                    <h4>200% (2倍 800px)</h4>
                     <div class="image-container">
-                        <img src="assets/img/sample.png" style="width: 200px;" alt="PNG 200%">
+                        <img src="assets/img/sample.png" style="width: 200%;" alt="PNG 200%">
                     </div>
                 </div>
                 <div class="scale-item">
-                    <h4>400% (4倍)</h4>
+                    <h4>400% (4倍 1600px)</h4>
                     <div class="image-container">
-                        <img src="assets/img/sample.png" style="width: 400px;" alt="PNG 400%">
+                        <img src="assets/img/sample.png" style="width: 400%;" alt="PNG 400%">
                     </div>
                 </div>
             </div>
@@ -383,21 +395,21 @@
             <h3 style="margin-top: 30px; margin-bottom: 15px;">ベクター画像（SVG）- 拡大しても鮮明</h3>
             <div class="scale-comparison">
                 <div class="scale-item">
-                    <h4>100% (原寸)</h4>
+                    <h4>100% (原寸 400px)</h4>
                     <div class="image-container">
-                        <img src="assets/img/sample.svg" style="width: 100px;" alt="SVG 100%">
+                        <img src="assets/img/sample.svg" alt="SVG 100%">
                     </div>
                 </div>
                 <div class="scale-item">
-                    <h4>200% (2倍)</h4>
+                    <h4>200% (2倍 800px)</h4>
                     <div class="image-container">
-                        <img src="assets/img/sample.svg" style="width: 200px;" alt="SVG 200%">
+                        <img src="assets/img/sample.svg" style="width: 200%;" alt="SVG 200%">
                     </div>
                 </div>
                 <div class="scale-item">
-                    <h4>400% (4倍)</h4>
+                    <h4>400% (4倍 1600px)</h4>
                     <div class="image-container">
-                        <img src="assets/img/sample.svg" style="width: 400px;" alt="SVG 400%">
+                        <img src="assets/img/sample.svg" style="width: 400%;" alt="SVG 400%">
                     </div>
                 </div>
             </div>
